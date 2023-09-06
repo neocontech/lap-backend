@@ -30,4 +30,3 @@
 <!-- Plugins JS start-->
 @stack('scripts')
 <!-- Plugins JS Ends-->
-<script></script>

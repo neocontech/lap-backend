@@ -1948,7 +1948,26 @@ a:hover {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+/* custom */
 
+.btn-outline-logout {
+    border-width: 2px;
+    border-color: #ffffff;
+    color: #0089D0;
+    background-color: transparent;
+}
+.btn-outline-logout:hover,
+.btn-outline-logout:focus,
+.btn-outline-logout:active,
+.btn-outline-logout.active {
+    color: white;
+    background-color: #0089D0 !important;
+    border-color: #0089D0 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* // */
 .btn-outline-secondary-2x {
     border-width: 2px;
     border-color: #ba895d;

@@ -143,7 +143,7 @@
                 <li class="onhover-dropdown p-0">
                     <a href="{{ route('logout') }}"
                         onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                        <button class="btn btn-outline-dark" style="color:#0089D0" type="button">
+                        <button class="btn btn-outline-logout" type="button">
                             <i data-feather="log-out"></i>Log Out
                         </button>
                     </a>

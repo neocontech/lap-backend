@@ -28,7 +28,7 @@
     <nav>
         <div class="main-navbar">
             <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
-            <div id="mainnav">
+            <div id="main-nav">
                 <ul class="nav-menu custom-scrollbar">
                     <li class="back-btn">
                         <div class="mobile-back text-end"><span>Back</span><i class="fa fa-angle-right ps-2"
@@ -36,14 +36,14 @@
                     </li>
                     {{-- <li class="sidebar-main-title">
                     </li> --}}
-                    {{-- <li class="dropdown">
+                    <li class="dropdown">
                         <a class="nav-link menu-title " href="javascript:void(0)"><i
-                                data-feather="airplay"></i><span>Case Studies</span></a>
+                                data-feather="airplay"></i><span>Dummy</span></a>
                         <ul class="nav-submenu menu-content" style="display: none;">
-                            <li><a href="{{ route('caseStudy.create') }}" class="#">Case Studies Form</a></li>
-                            <li><a href="{{ route('caseStudy.index') }}" class="#">List of Case Studies</a></li>
+                            <li><a href="#" class="#">Dummy Form</a></li>
+                            <li><a href="#" class="#">List of Dummy</a></li>
                         </ul>
-                    </li> --}}
+                    </li>
                 </ul>
             </div>
             <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
