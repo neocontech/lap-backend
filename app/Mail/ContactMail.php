@@ -49,7 +49,7 @@ class ContactMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Contact Us Mail Confirmation',
+            subject: 'Mail Confirmation',
         );
     }
 
